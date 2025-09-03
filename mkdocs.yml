@@ -1,0 +1,44 @@
+site_name: Compilador C em Python
+site_description: Documentação oficial do compilador C escrito em Python
+site_author: Equipe do Projeto
+repo_url: https://github.com/SEU_USUARIO/projeto-open-source
+repo_name: projeto-open-source
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+nav:
+  - Início: index.md
+  - Instalação: instalacao.md
+  - Estrutura do Projeto: estrutura.md
+  - Como Usar: uso.md
+  - Módulos:
+      - Visão Geral: modules/index.md
+      - main.py: modules/main.md
+      - Tokenizer.py: modules/tokenizer.md
+      - Parser.py: modules/parser.md
+      - Node.py: modules/node.md
+      - Token.py: modules/token.md
+      - Definitions.py: modules/definitions.md
+      - PrePros.py: modules/prepros.md
+      - AsmWritter.py: modules/asmwritter.md
+  - Contribuindo: contribuindo.md
+  - Licença: licenca.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - def_list
+  - abbr
+plugins:
+  - search
